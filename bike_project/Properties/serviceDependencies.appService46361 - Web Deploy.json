@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql4": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "MyDBConeection"
+    },
+    "mssql3": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/appService46361/providers/Microsoft.ServiceLinker/linkers/MyDBConnection_236B9B81CC",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bikestores46/databases/BikeStores46",
+      "type": "mssql.azure",
+      "connectionId": "MyDBConnection"
+    }
+  }
+}

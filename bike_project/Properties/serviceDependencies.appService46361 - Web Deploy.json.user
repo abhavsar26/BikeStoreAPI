@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql3": {
+      "restored": true,
+      "restoreTime": "2024-07-11T12:27:45.4558797Z"
+    },
+    "mssql4": {
+      "restored": true,
+      "restoreTime": "2024-07-11T12:27:41.6883293Z"
+    }
+  },
+  "parameters": {
+    "mssql3.subscriptionId": {
+      "Name": "mssql3.subscriptionId",
+      "Type": "subscription",
+      "Value": "e042fd23-39f7-494c-bd88-5843333e1902"
+    },
+    "mssql3.resourceGroupName": {
+      "Name": "mssql3.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "projec-bike"
+    }
+  }
+}
